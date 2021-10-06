@@ -1,2 +1,2 @@
 # project
-1. [트리](./파이썬 알고리즘/Readme.md)
+### 1. [트리](./python_algorithm/Readme.md)
