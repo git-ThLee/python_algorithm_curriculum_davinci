@@ -1,3 +1,3 @@
 ## # project
-### 1. [파이썬 배워야 하는 이유]](.python_tutorial\README.md)
+### 1. [파이썬 1주차](.python_tutorial\README.md)
 
