@@ -102,7 +102,9 @@ dfs(n,current,0)
 ```
 
 **스택으로 dfs 구현하기**
+
 recursive가 아닌 interative에서는 스택의 상태와 동시에 각 노드별 방문 상태를 저장해야 한다.
+
 ```python
 n = 12 #node의 개수
 check = [False for _ in range(n)] #방문여부를 체크하기 위한 배열
