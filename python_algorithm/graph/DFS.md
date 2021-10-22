@@ -12,41 +12,41 @@ DFS는 루트 노드, 혹은 그래프에서 하나의 정점에서 시작해서
 
 **트리에서의 DFS 탐색 과정**
 
-<img src = "./image/dfs/dfs1.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs1.png" width="40%" height="40%"/>
 
 먼저 1번 노드에서 탐색을 시작한다.
 
 stack에 1을 push한다. 
 
-<img src = "./image/dfs/dfs2.png" width="40%" height="40%"/><img src = "./image/dfs/dfs3.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs2.png" width="40%" height="40%"/><img src = "../image/dfs/dfs3.png" width="40%" height="40%"/>
 
 1번 노드와 연결된 노드 중 한 개의 노드를 탐색한다.
 
 stack에 2를 push한다. 
 
-<img src = "./image/dfs/dfs4.png" width="40%" height="40%"/><img src = "./image/dfs/dfs5.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs4.png" width="40%" height="40%"/><img src = "../image/dfs/dfs5.png" width="40%" height="40%"/>
 
 3번 노드를 탐색하지 않고 2번과 연결된 다른 노드 중 4번 노드를 탐색한다.
 
 stack에 4를 push한다. 
 
-<img src = "./image/dfs/dfs6.png" width="40%" height="40%"/><img src = "./image/dfs/dfs7.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs6.png" width="40%" height="40%"/><img src = "../image/dfs/dfs7.png" width="40%" height="40%"/>
 
 4번 노드에서 탐색할 수 있는 다른 노드가 없으므로 2번과 연결된 5번 노드를 탐색한다.
 
 stack에서 pop을 한 번 해서 4를 없애고, 5를 push한다. 
 
-<img src = "./image/dfs/dfs8.png" width="40%" height="40%"/><img src = "./image/dfs/dfs9.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs8.png" width="40%" height="40%"/><img src = "../image/dfs/dfs9.png" width="40%" height="40%"/>
 
 5번과 연결된 노드 중 탐색할 수 있는 노드인 7번 노드를 탐색한다.
 
 stack에 7을 push한다. 
 
-<img src = "./image/dfs/dfs10.png" width="40%" height="40%"/><img src = "./image/dfs/dfs11.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs10.png" width="40%" height="40%"/><img src = "../image/dfs/dfs11.png" width="40%" height="40%"/>
 
 같은 방법으로 반복하여 모든 노드를 탐색한다.
 
-<img src = "./image/dfs/dfs12.png" width="40%" height="40%"/>
+<img src = "../image/dfs/dfs12.png" width="40%" height="40%"/>
 
 ### 이때 한번 탐색을 진행했던 노드는 다시 탐색하지 않도록 체크해야 한다.
 

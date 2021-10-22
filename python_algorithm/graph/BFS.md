@@ -16,7 +16,7 @@ queue를 이용하여 구현할 수 있다.
 
 **트리에서의  BFS 탐색 과정**
 
-<img src = "./image/bfs/bfs0.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs0.png" width="40%" height="40%"/>
 
 먼저 1번 노드에서 탐색을 시작한다. 
 
@@ -24,7 +24,7 @@ queue에 1을 push 해준다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs1.png" width="40%" height="40%"/><img src = "./image/bfs/bfs2.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs1.png" width="40%" height="40%"/><img src = "../image/bfs/bfs2.png" width="40%" height="40%"/>
 
 1번 노드와 연결된 노드 중 2번 노드를 탐색한다. 
 
@@ -32,7 +32,7 @@ queue에서 1을 pop하고  2를 push해준다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs3.png" width="40%" height="40%"/><img src = "./image/bfs/bfs4.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs3.png" width="40%" height="40%"/><img src = "../image/bfs/bfs4.png" width="40%" height="40%"/>
 
 1번 노드와 연결된 노드 중 탐색하지 않은 노드인 3번 노드를 탐색한다. 
 
@@ -40,7 +40,7 @@ queue에 3을 넣어준다.
 
 <queue>의 현재 상태 
 
-<img src = "./image/bfs/bfs5.png" width="40%" height="40%"/><img src = "./image/bfs/bfs6.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs5.png" width="40%" height="40%"/><img src = "../image/bfs/bfs6.png" width="40%" height="40%"/>
 
 1번 노드와 연결된 모든 노드를 탐색했으므로 다음으로 탐색했던 2번 노드와 연결된 노드 중 4번 노드를 탐색한다. 
 
@@ -48,7 +48,7 @@ queue에서 2를 pop하고 4를 push해준다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs7.png" width="40%" height="40%"/><img src = "./image/bfs/bfs8.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs7.png" width="40%" height="40%"/><img src = "../image/bfs/bfs8.png" width="40%" height="40%"/>
 
 2번 노드와 연결된 노드 중 탐색하지 않은 노드인 5번 노드를 탐색한다. 
 
@@ -56,7 +56,7 @@ queue에 5를 push해준다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs9.png" width="40%" height="40%"/><img src = "./image/bfs/bfs10.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs9.png" width="40%" height="40%"/><img src = "../image/bfs/bfs10.png" width="40%" height="40%"/>
 
 2번 노드와 연결된 모든 노드를 탐색했으므로 2번 노드 다음으로 탐색한 3번 노드와 연결된 노드인 6번 노드를 방문한다. 
 
@@ -64,7 +64,7 @@ queue에서 3을 pop해주고, 6을 push해준다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs11.png" width="40%" height="40%"/><img src = "./image/bfs/bfs12.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs11.png" width="40%" height="40%"/><img src = "../image/bfs/bfs12.png" width="40%" height="40%"/>
 
 3번 노드와 연결된 모든 노드를 탐색했으므로, 3번 노드 다음으로 탐색한 4번 노드와 연결된 노드를 탐색한다. 4번 노드와 연결된 노드가 없으므로 그 다음으로 탐색한 5번 노드와 연결된 노드 중 7번 노드를 탐색한다. 
 
@@ -72,7 +72,7 @@ queue에서 4를 pop해주고, 5도 pop해준 후 7을 push해준다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs13.png" width="40%" height="40%"/><img src = "./image/bfs/bfs14.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs13.png" width="40%" height="40%"/><img src = "../image/bfs/bfs14.png" width="40%" height="40%"/>
 
 같은 방법으로 반복하여 모든 노드를 탐색한다.
 
@@ -80,7 +80,7 @@ queue에 아무것도 없으면 탐색을 종료한다.
 
 <queue>의 현재 상태
 
-<img src = "./image/bfs/bfs15.png" width="40%" height="40%"/><img src = "./image/bfs/bfs16.png" width="40%" height="40%"/>
+<img src = "../image/bfs/bfs15.png" width="40%" height="40%"/><img src = "../image/bfs/bfs16.png" width="40%" height="40%"/>
 
 위와 과정을 통해 탐색을 하면 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11 → 12의 순서로 탐색을 진행하게 된다.  
 
