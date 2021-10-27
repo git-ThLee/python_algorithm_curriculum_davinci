@@ -14,23 +14,24 @@
 - [이진트리(binary tree)](./tree/이진트리.md)
 - [이진탐색트리(binary search tree)](./tree/이진탐색트리.md)
 - [힙트리(heap tree)](./tree/힙트리.md)
-- 세그먼트 트리
+
 
 ### 4. [그래프(Graph)](./graph/그래프.md)
 - [BFS](./graph/BFS.md)
 - [DFS](./graph/DFS.md)
 - [백트래킹(backtracking)](./graph/백트래킹.md)
 - 다익스트라(Dijkstra algorithm)
-- 벨만-포드(Bellman-ford)
-- 플로이드 와샬
 
-### 5. 최소 신장 트리(Minimum Spanning Tree)
-- Prims
-- Kruskal
+### 5. 정렬
 
-### 6. 정렬
-
-### 7. 기타 알고리즘
+### 6. 기타 알고리즘
 - 이분탐색
 - 해시 테이블
 
+### 8. 심화 알고리즘
+- 세그먼트 트리
+- 벨만-포드(Bellman-ford)
+- 플로이드 와샬
+- Prims
+- Kruskal
+- 위상정렬
