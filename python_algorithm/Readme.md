@@ -20,7 +20,7 @@
 - [BFS](./graph/BFS.md)
 - [DFS](./graph/DFS.md)
 - [백트래킹(Backtracking)](./graph/백트래킹.md)
-- 다익스트라(Dijkstra algorithm)
+- [다익스트라(Dijkstra algorithm)](./graph/다익스트라.md)
 
 ### 5. 정렬
 
