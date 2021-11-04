@@ -26,7 +26,7 @@
 - [선택정렬(Selection Sort)](./sort/선택정렬.md)
 - [삽입정렬(Insertion Sort)](./sort/삽입정렬.md)
 - [거품정렬(Bubble Sort)](./sort/거품정렬.md)
-- [합병정렬(Merge Sort)](./sort/병합정렬.md)
+- [병합정렬(Merge Sort)](./sort/병합정렬.md)
 - 퀵정렬(Quick Sort)
 - 힙정렬(Heap Sort)
 - 계수정렬(Counting Sort)
