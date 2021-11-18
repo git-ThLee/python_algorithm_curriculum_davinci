@@ -16,6 +16,8 @@ queue를 이용하여 구현할 수 있다.
 
 **트리에서의  BFS 탐색 과정**
 
+<img src = "../image/bfs/1.gif" width="40%" height="40%"/><img src = "../image/bfs/2.gif" width="40%" height="40%"/>
+
 <img src = "../image/bfs/bfs0.png" width="40%" height="40%"/>
 
 먼저 1번 노드에서 탐색을 시작한다. 
