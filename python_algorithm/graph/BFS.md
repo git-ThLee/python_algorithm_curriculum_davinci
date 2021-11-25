@@ -24,7 +24,7 @@ queue를 이용하여 구현할 수 있다.
 
 queue에 1을 push 해준다. 
 
-<queue>의 현재 상태
+[queue의 현재 상태]
 
 <img src = "../image/bfs/bfs1.png" width="40%" height="40%"/><img src = "../image/bfs/bfs2.png" width="40%" height="40%"/>
 
@@ -32,7 +32,7 @@ queue에 1을 push 해준다.
 
 queue에서 1을 pop하고  2를 push해준다.
 
-<queue>의 현재 상태
+[queue의 현재 상태]
 
 <img src = "../image/bfs/bfs3.png" width="40%" height="40%"/><img src = "../image/bfs/bfs4.png" width="40%" height="40%"/>
 
@@ -64,7 +64,7 @@ queue에 5를 push해준다.
 
 queue에서 3을 pop해주고, 6을 push해준다. 
 
-<queue>의 현재 상태
+[queue의 현재 상태]
 
 <img src = "../image/bfs/bfs11.png" width="40%" height="40%"/><img src = "../image/bfs/bfs12.png" width="40%" height="40%"/>
 
@@ -72,7 +72,7 @@ queue에서 3을 pop해주고, 6을 push해준다.
 
 queue에서 4를 pop해주고, 5도 pop해준 후 7을 push해준다. 
 
-<queue>의 현재 상태
+[queue의 현재 상태]
 
 <img src = "../image/bfs/bfs13.png" width="40%" height="40%"/><img src = "../image/bfs/bfs14.png" width="40%" height="40%"/>
 
@@ -80,7 +80,7 @@ queue에서 4를 pop해주고, 5도 pop해준 후 7을 push해준다.
 
 queue에 아무것도 없으면 탐색을 종료한다. 
 
-<queue>의 현재 상태
+[queue의 현재 상태]
 
 <img src = "../image/bfs/bfs15.png" width="40%" height="40%"/><img src = "../image/bfs/bfs16.png" width="40%" height="40%"/>
 
@@ -99,17 +99,17 @@ n = 12 #node의 개수
 check = [False for _ in range(n)] #방문여부를 체크하기 위한 배열
 #인접행렬로 구현된 그래프
 graph = [[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+		[0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
 
 def bfs(n, graph, start):
     global check
