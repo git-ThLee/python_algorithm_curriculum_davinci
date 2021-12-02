@@ -32,8 +32,8 @@
 - [병합정렬(Merge Sort)](./sort/병합정렬.md)
 - [퀵정렬(Quick Sort)](./sort/퀵정렬.md)
 - [힙정렬(Heap Sort)](./sort/힙정렬.md)
-- 계수정렬(Counting Sort)
-- 기수정렬(Radix Sort)
+- [계수정렬(Counting Sort)](./sort/계수정렬.md)
+- [기수정렬(Radix Sort)](./sort/기수정렬.md)
 - 버킷정렬(Bucket Sort)
 
 ### 7. 기타 알고리즘
