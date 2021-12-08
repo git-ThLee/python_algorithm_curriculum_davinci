@@ -1,6 +1,6 @@
 ## 목록
 
-### 1. 시간복잡도
+### 1. 시간복잡도와 공간복잡도
 
 ### 2. 자료구조
 - [링크드리스트(Linked List)](./data_structure/링크드리스트.md)
@@ -24,6 +24,7 @@
 - [DFS](./graph/DFS.md)
 - [백트래킹(Backtracking)](./graph/백트래킹.md)
 - [다익스트라(Dijkstra algorithm)](./graph/다익스트라.md)
+- 이분그래프(Bipartite graph)
 
 ### 6. [정렬](./sort/정렬.md)
 - [선택정렬(Selection Sort)](./sort/선택정렬.md)
