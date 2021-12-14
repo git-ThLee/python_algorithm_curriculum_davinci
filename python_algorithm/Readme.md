@@ -38,7 +38,7 @@
 - [버킷정렬(Bucket Sort)](./sort/버킷정렬.md)
 
 ### 7. 기타 알고리즘
-- 이분탐색
+- [이분탐색](./extra_algorithm/이분탐색.md)
 - 해시 테이블
 - KMP 알고리즘
 
