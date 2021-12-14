@@ -35,7 +35,7 @@
 - [힙정렬(Heap Sort)](./sort/힙정렬.md)
 - [계수정렬(Counting Sort)](./sort/계수정렬.md)
 - [기수정렬(Radix Sort)](./sort/기수정렬.md)
-- 버킷정렬(Bucket Sort)
+- [버킷정렬(Bucket Sort)](./sort/버킷정렬.md)
 
 ### 7. 기타 알고리즘
 - 이분탐색
