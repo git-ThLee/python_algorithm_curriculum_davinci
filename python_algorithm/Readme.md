@@ -4,9 +4,18 @@
 
 ### 2. 자료구조
 - [링크드리스트(Linked List)](./data_structure/링크드리스트.md)
+    - [1406 에디터](https://www.acmicpc.net/problem/1406)
+    - [5397 키로거](https://www.acmicpc.net/problem/5397)
 - [스택(Stack)](./data_structure/스택.md)
+    - [10828 스택](https://www.acmicpc.net/problem/10828)
+    - [9012 괄호](https://www.acmicpc.net/problem/9012)
+    - [1874 스택수열](https://www.acmicpc.net/problem/1874)
 - [큐(Queue)](./data_structure/큐.md)
+    - [10845 스택](https://www.acmicpc.net/problem/10845)
+    - [2164 카드2](https://www.acmicpc.net/problem/2164)
+    - [11866 요세푸스 문제0](https://www.acmicpc.net/problem/11866)
 - [덱(Deque)](./data_structure/덱.md)
+    - [11866 요세푸스 문제0](https://www.acmicpc.net/problem/10866)
 
 ### 3. 여러가지 알고리즘 기법
 - [브루트포스(Brute force search)](./basic_algorithm/brute_force.md)
