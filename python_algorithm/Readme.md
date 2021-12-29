@@ -4,8 +4,6 @@
 
 ### 2. 자료구조
 - [링크드리스트(Linked List)](./data_structure/링크드리스트.md)
-    - [1406 에디터](https://www.acmicpc.net/problem/1406)
-    - [5397 키로거](https://www.acmicpc.net/problem/5397)
 - [스택(Stack)](./data_structure/스택.md)
     - [10828 스택](https://www.acmicpc.net/problem/10828)
     - [9012 괄호](https://www.acmicpc.net/problem/9012)
