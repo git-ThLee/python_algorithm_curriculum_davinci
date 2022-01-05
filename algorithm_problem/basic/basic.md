@@ -32,3 +32,7 @@
 - [1546 평균](https://www.acmicpc.net/problem/1546)
 - [2475 검증수](https://www.acmicpc.net/problem/2475)
 - [3052 나머지](https://www.acmicpc.net/problem/3052)
+
+### 6. 수학
+- [2609 최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
+- [1978 소수 찾기](https://www.acmicpc.net/problem/1978)
