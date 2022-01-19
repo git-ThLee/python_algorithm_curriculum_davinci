@@ -24,7 +24,7 @@
 - [DFS](./graph/DFS.md)
 - [백트래킹(Backtracking)](./graph/백트래킹.md)
 - [다익스트라(Dijkstra algorithm)](./graph/다익스트라.md)
-- 이분그래프(Bipartite graph)
+- [이분그래프(Bipartite graph)](./graph/이분그래프.md)
 
 ### 6. [정렬](./sort/정렬.md)
 - [선택정렬(Selection Sort)](./sort/선택정렬.md)
